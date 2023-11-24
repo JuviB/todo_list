@@ -27,7 +27,6 @@ This project includes a database-driven component that differentiates and keeps 
 This program is useful for a user to track their everyday tasks that needs to be done and whether the tasks are completed or not.
 
 ### Installation
-
 - git clone https://github.com/JuviB/todo_list.git
 
 - cd todo_list
@@ -44,17 +43,14 @@ This program is useful for a user to track their everyday tasks that needs to be
 - python -m venv venv
 
 ##### Example for creating database tables
-
 - python manage.py makemigrations
 
 - python manage.py migrate
 
 ##### Example for running the application
-
 - python manage.py runserver
 
 ##### Example for building and running the Docker container
-
 - docker build -t todo_list
 
 - docker run -p 8000:8000 todo_list
