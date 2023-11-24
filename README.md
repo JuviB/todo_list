@@ -1,6 +1,7 @@
 # todo_list
 
 ## Table of Contents:
+
   - Description of the project 
   - Importance of the project and what it does
   - Installation
@@ -8,6 +9,7 @@
   - Credits
 
 ### Description of the project
+
 Built a Website using Django. This website is a ToDo List that allows the user to create an account and enables them to track their everyday tasks.
   - Create an account with an appropriate username and password
   - Log in to their account with repective login details
@@ -21,9 +23,11 @@ Built a Website using Django. This website is a ToDo List that allows the user t
 This project includes a database-driven component that differentiates and keeps track of all tasks created for a logged in user, this is done through user login and authentication in django.
   
 ### Importance of the project and what it does
+
 This program is useful for a user to track their everyday tasks that needs to be done and whether the tasks are completed or not.
 
 ### Installation
+
 git clone https://github.com/JuviB/todo_list.git
 
 cd todo_list
@@ -40,17 +44,23 @@ python manage.py runserver
 python -m venv venv
 
 ##### Example for creating database tables
+
 python manage.py makemigrations
+
 python manage.py migrate
 
 ##### Example for running the application
+
 python manage.py runserver
 
 ##### Example for building and running the Docker container
+
 docker build -t todo_list
+
 docker run -p 8000:8000 todo_list
 
 ### Usage
+
 As soon as the server is running, the login page will be displayed for users that already have an account to login.
 
 ![login](https://github.com/JuviB/todo_list/assets/149655754/6837f1ed-b38c-4fa4-ba69-4c75ceab4803)
@@ -70,11 +80,14 @@ New tasks can be added by clicking on the '+' icon, this will redirect the user 
 ![addTask](https://github.com/JuviB/todo_list/assets/149655754/799f59a3-f11c-48e1-b70a-98131bff8333)
 
 Tasks can be modified by clicking on the task title, if a task is marked completed a line will be crossed through it.
+
 Tasks can also be deleted by clicking on the 'x' icon on the extreme right of the task title.
 
 ### Credits
+
 - Guided by Hyperiondev
 - Created by Juvaan Bechoo 
 
 ### URL
+
 [Github Repository URL](https://github.com/JuviB/todo_list.git)
