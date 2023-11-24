@@ -28,36 +28,36 @@ This program is useful for a user to track their everyday tasks that needs to be
 
 ### Installation
 
-git clone https://github.com/JuviB/todo_list.git
+- git clone https://github.com/JuviB/todo_list.git
 
-cd todo_list
+- cd todo_list
 
 #### Step-by-step guide on how to install and set up the project:
 
 ##### Example for Django migrations
-python manage.py migrate
+- python manage.py migrate
 
 ##### Example for running the development server
-python manage.py runserver
+- python manage.py runserver
 
 ##### Example for creating a virtual environment
-python -m venv venv
+- python -m venv venv
 
 ##### Example for creating database tables
 
-python manage.py makemigrations
+- python manage.py makemigrations
 
-python manage.py migrate
+- python manage.py migrate
 
 ##### Example for running the application
 
-python manage.py runserver
+- python manage.py runserver
 
 ##### Example for building and running the Docker container
 
-docker build -t todo_list
+- docker build -t todo_list
 
-docker run -p 8000:8000 todo_list
+- docker run -p 8000:8000 todo_list
 
 ### Usage
 
